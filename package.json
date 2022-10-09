@@ -10,5 +10,9 @@
   "devDependencies": {
     "nuxt": "3.0.0-rc.11",
     "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.1",
+    "request": "^2.88.2"
   }
 }
