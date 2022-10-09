@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <img :src="song.cover" :alt="song.title" />
-    <div class="rank">{{ rank }}</div>
+    <div class="rank">{{ song.recordNumber }}</div>
     <p class="title">{{ song.title.toLowerCase() }}</p>
     <p class="artist">{{ song.artist }}</p>
   </div>
